@@ -6,3 +6,9 @@
     <br>Course: {{x.course}}. 
     <br>Addr: {{x.address}}.</li>
 </ul>
+
+<h1>Weather Data</h1>
+<ul>
+  <li>Location: Galway</li>
+  <li *ngFor="let y of myWeather">Forecast: {{y.main}}, {{y.description}}.</li>
+</ul>
